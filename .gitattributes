@@ -1,0 +1,6 @@
+# Скрипты должны всегда скачиваться с переносами строк LF, иначе bash на Windows сломается
+*.sh text eol=lf
+
+# Текстовые файлы, созданные через echo, — тоже LF, без предупреждений про CRLF
+*.txt text eol=lf
+.gitignore text eol=lf
